@@ -1,0 +1,13 @@
+{
+  "include": [
+    "*.ts",
+    "*.tsx",
+    ".eslintrc.cjs",
+    "App/App.tsx",
+    "App/globalStyles.tsx"
+  ],
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}

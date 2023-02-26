@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  border-radius: 8px;
+}
+
+.dark .header {
+  background: #28537abb;
+  color: white;
+}
+
+.dark .title-header {
+  color: white;
+}
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .header-container {
+    justify-content: center;
+  }
+}
